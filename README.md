@@ -13,7 +13,7 @@ This project analyzes a clinical dataset to identify high-risk physiological pro
 
 ## Clinical Significance & Background
 
-Heart failure prevalence is rising in the UK due to an aging population and is predicted to double by 2040. According to NICE, the condition affects 1 in 5 people across Europe. While datasets are plentiful, identifying the specific "tipping points" where physiological markers transition from "at risk" to "diseased" is critical for preventative diagnostic frameworks.
+Heart failure prevalence is rising in the UK due to an aging population and is predicted to double by 2040. According to NICE, the condition affects 1 in 5 people across Europe. While datasets are plentiful, identifying the specific "tipping points" where physiological markers transition from "at risk" to "diseased" is critical for preventative diagnostic frameworks. [2]
 
 ## Deep Dive Observations
 ### 1. Age and the Inflection of Risk
@@ -36,7 +36,14 @@ The 3D projection captures 70.3% of the variance. The clear spatial clustering b
 **Analysis**: Correlation heatmaps to identify primary drivers and pivot tables for risk-ratio validation.
 **PCA**: Multi-component Principal Component Analysis to validate class separability in reduced dimensions.
 
+## Detailed observations
+wip
+
+## Future work and real-world applicability
+wip
+
 References
+
 [1] [NICE: Heart Failure Prevalence](https://cks.nice.org.uk/topics/heart-failure-chronic/background-information/prevalence/)
 
 [2] [NHS: Managing Heart Failure at Home](https://www.england.nhs.uk/nhs-at-home/managing-heart-failure-at-home/)
