@@ -37,6 +37,6 @@ The 3D projection captures 70.3% of the variance. The clear spatial clustering b
 **PCA**: Multi-component Principal Component Analysis to validate class separability in reduced dimensions.
 
 References
-[1] [https://cks.nice.org.uk/topics/heart-failure-chronic/background-information/prevalence/](NICE: Heart Failure Prevalence)
+[1] [NICE: Heart Failure Prevalence](https://cks.nice.org.uk/topics/heart-failure-chronic/background-information/prevalence/)
 
-[2] [https://www.england.nhs.uk/nhs-at-home/managing-heart-failure-at-home/](NHS: Managing Heart Failure at Home)
+[2] [NHS: Managing Heart Failure at Home](https://www.england.nhs.uk/nhs-at-home/managing-heart-failure-at-home/)
