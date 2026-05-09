@@ -23,12 +23,12 @@ The drop-off in data volume after age 70 indicates a survivorship bias, where hi
 
 ### 2. Blood Pressure: The Stage 2 Tipping Point
 Risk does not scale linearly with blood pressure; it plateaus through "Elevated" and "Stage 1" before spiking.
-[Insert image_3ea65a.png here]
+![Image of hypertension distribution](https://github.com/HA-141/HeartFailureDataAnalysis/blob/main/Output_Figs/Feature_eng_BP_level.png)
 Stage 2 Hypertension is a critical clinical boundary. The sparse data in the "Severe" category suggests these patients are often treated in emergency settings rather than recorded in standard diagnostic datasets.
 
 ### 3. Dimensionality Reduction (PCA)
 To untangle overlapping variables, PCA was used to compress the feature space while maintaining the "signal."
-[Insert image_3f7814.jpg here]
+![3D PCA](https://github.com/HA-141/HeartFailureDataAnalysis/blob/main/Output_Figs/3D_PCA.png)
 The 3D projection captures 70.3% of the variance. The clear spatial clustering between groups proves that heart disease is highly predictable when combining these physiological markers, even when ignoring minor data "noise."
 
 ## Methodology
@@ -37,7 +37,10 @@ The 3D projection captures 70.3% of the variance. The clear spatial clustering b
 **PCA**: Multi-component Principal Component Analysis to validate class separability in reduced dimensions.
 
 ## Detailed observations
-wip
+
+![categorical feature distributions](https://github.com/HA-141/HeartFailureDataAnalysis/blob/main/Output_Figs/Categorical_feature_dist.png)
+![multivariate analysis on continuous variables](https://github.com/HA-141/HeartFailureDataAnalysis/blob/main/Output_Figs/Multivariate_analysis.png)
+![correlation heatmap](https://github.com/HA-141/HeartFailureDataAnalysis/blob/main/Output_Figs/Correlation_heatmap.png)
 
 ## Future work and real-world applicability
 wip
