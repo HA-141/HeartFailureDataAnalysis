@@ -3,7 +3,7 @@ Data analysis on the connection of variables to Heart failure with a dataset pro
 
 ## Executive Summary
 
-This project analyzes a clinical dataset publicly available on (Kaggle)[https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction] to identify high-risk physiological profiles for heart failure, a condition affecting 920,000 people in the UK. By leveraging dimensionality reduction and categorical feature engineering, the analysis isolates a robust diagnostic signal from complex medical data [1, 2].
+This project analyzes a clinical dataset publicly available on [Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) to identify high-risk physiological profiles for heart failure, a condition affecting 920,000 people in the UK. By leveraging dimensionality reduction and categorical feature engineering, the analysis isolates a robust diagnostic signal from complex medical data [1, 2].
 
  - **Key Predictors**: Exercise Angina, Oldpeak, and Age are the strongest indicators of heart failure presence.
  - **Dimensionality Signal**: 3D PCA reveals clear class separability, with three components explaining 70.3% of total variance.
@@ -58,9 +58,16 @@ Correlation heatmap shows that a select few features are stronger indicators for
 
 
 ## Future work and real-world applicability
-wip
 
-References
+### Clinical Utility
+This analysis can be used as a pre-screening framework for primary care. By identifying "Red Flag" profiles such as stage 2 Blood Pressure and age over 50, practitioners can prioritize high-risk individuals for advanced cardiac imaging or stress tests before symptoms become acute.
+
+### Planned Enhancements
+**Advanced Modeling**: Implementing non-linear machine learning models, such as Random Forests or XGBoost, to better capture the "threshold effects" identified in the Blood Pressure and Age categories.
+**Time-Series Analysis**: If longitudinal data becomes available, tracking how quickly a patient moves from "Stage 1" to "Stage 2" BP could serve as a predictive early-warning system.
+**Diagnosis prediction model**: Use classification models such as Random Forest Classifier, SVMs or KNNs to predict (or classify) a patient on whether they are likely to have heart disease, giving features that have a higher correlation to heart disease a stronger importancr factor in the model
+
+References:
 
 [1] [NICE: Heart Failure Prevalence](https://cks.nice.org.uk/topics/heart-failure-chronic/background-information/prevalence/)
 
