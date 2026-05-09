@@ -18,7 +18,7 @@ Heart failure prevalence is rising in the UK due to an aging population and is p
 ## Deep Dive Observations
 ### 1. Age and the Inflection of Risk
 Age-stratified analysis shows that while the 51-60 cohort has the highest volume of cases, the 61-70 cohort exhibits the most severe risk ratio.
-[Insert image_3e1f16.png here]
+![Image of stratified distributions](https://github.com/HA-141/HeartFailureDataAnalysis/blob/main/Output_Figs/Feature_eng_Age_level.png)
 The drop-off in data volume after age 70 indicates a survivorship bias, where high-risk individuals may suffer acute events before elective diagnostic recording.
 
 ### 2. Blood Pressure: The Stage 2 Tipping Point
