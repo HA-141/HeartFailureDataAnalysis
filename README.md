@@ -46,14 +46,19 @@ The 3D projection captures 70.3% of the variance. The clear spatial clustering b
 
 ### Positive and negative correlation between certain features and heart disease
 ![correlation heatmap](https://github.com/HA-141/HeartFailureDataAnalysis/blob/main/Output_Figs/Correlation_heatmap.png)
-Select features (in descending order) have a stroing correlation to heart fialure: Exercise Angina, OldPeak, Sex, Age, FastingBS.
-Select features (in ascending order have a strong negative correlation to heart failure: ST_Slope, MaxHR, ChestPainType, Cholesterol.
+Select features (in descending order) have a stroing correlation to heart fialure: **Exercise Angina, OldPeak, Sex, Age, FastingBS.**
+
+Select features (in ascending order have a strong negative correlation to heart failure: **ST_Slope, MaxHR, ChestPainType, Cholesterol.**
+
 Remaining features show little to no correlation to heart disease.
+
 Correlation heatmap shows that a select few features are stronger indicators for heart failure and should have a higher priority in indentifying during diagnosis, while other features less so.
 
 ## Methodology
 **Preprocessing**: StandardScaling for variance-sensitive algorithms and categorical binning for age and blood pressure.
+
 **Analysis**: Correlation heatmaps to identify primary drivers and pivot tables for risk-ratio validation.
+
 **PCA**: Multi-component Principal Component Analysis to validate class separability in reduced dimensions.
 
 
@@ -64,7 +69,9 @@ This analysis can be used as a pre-screening framework for primary care. By iden
 
 ### Planned Enhancements
 **Advanced Modeling**: Implementing non-linear machine learning models, such as Random Forests or XGBoost, to better capture the "threshold effects" identified in the Blood Pressure and Age categories.
+
 **Time-Series Analysis**: If longitudinal data becomes available, tracking how quickly a patient moves from "Stage 1" to "Stage 2" BP could serve as a predictive early-warning system.
+
 **Diagnosis prediction model**: Use classification models such as Random Forest Classifier, SVMs or KNNs to predict (or classify) a patient on whether they are likely to have heart disease, giving features that have a higher correlation to heart disease a stronger importancr factor in the model
 
 References:
