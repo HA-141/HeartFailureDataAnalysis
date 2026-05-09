@@ -3,7 +3,7 @@ Data analysis on the connection of variables to Heart failure with a dataset pro
 
 ## Executive Summary
 
-This project analyzes a clinical dataset publicly available on !(Kaggle)[https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction] to identify high-risk physiological profiles for heart failure, a condition affecting 920,000 people in the UK. By leveraging dimensionality reduction and categorical feature engineering, the analysis isolates a robust diagnostic signal from complex medical data [1, 2].
+This project analyzes a clinical dataset publicly available on (Kaggle)[https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction] to identify high-risk physiological profiles for heart failure, a condition affecting 920,000 people in the UK. By leveraging dimensionality reduction and categorical feature engineering, the analysis isolates a robust diagnostic signal from complex medical data [1, 2].
 
  - **Key Predictors**: Exercise Angina, Oldpeak, and Age are the strongest indicators of heart failure presence.
  - **Dimensionality Signal**: 3D PCA reveals clear class separability, with three components explaining 70.3% of total variance.
