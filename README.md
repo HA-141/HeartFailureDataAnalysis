@@ -80,4 +80,4 @@ References:
 
 [2] [NHS: Managing Heart Failure at Home](https://www.england.nhs.uk/nhs-at-home/managing-heart-failure-at-home/)
 
-![Dataset is available at Kaggle][https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction]
+[Dataset is available at Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
